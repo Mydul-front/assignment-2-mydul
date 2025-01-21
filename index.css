@@ -439,8 +439,8 @@
      display:flex;
      justify-content: space-evenly;
      align-items: center;
-     gap:20px;
-     padding:10px;
+     gap:30px;
+     padding:20px;
 }
 .footer-first{
      display:flex;
@@ -498,7 +498,71 @@
           display:none;
           
      }
-     .school-img, .img{
-          
+     .img{
+          width:50px;
+     }
+     .hero2{
+          flex-direction: column-reverse;
+          gap:20px;
+          overflow: hidden;
+     }
+     .content-hero{
+          width:90%;
+          text-align: center;
+          height:100%;
+          overflow: hidden;
+     }
+     .content-hero h1{
+          font-size: 1.5rem;
+     }
+     .btn-2{
+          margin:20px auto;
+     }
+     .hero3 .items{
+          flex-direction: column;
+          margin:20px;
+          overflow: hidden;
+     }
+     .items, .item-1, .item-2, .item-3{
+          width:90%;
+          margin-bottom:60%;
+     }
+     .hero4{
+          height:auto;
+          padding:20px;
+          overflow: hidden;
+     }
+     .main-class{
+          flex-direction: column;
+          text-align: center;
+     }
+     .first{
+          display:none;
+     }
+     .sec{
+          width:100%;
+          margin: 0;
+          padding:0;
+          flex-wrap: wrap;
+          overflow: hidden;
+     }
+     .simble{
+          display:none;
+     }
+     .footer-container{
+          flex-direction: column;
+          gap:20px;
+          padding:0;
+          margin:0;
+     }
+     .footer-first, .footer-main, .footer-last{
+          text-align: center;
+
+     }
+     .footer-first h1{
+          font-size: 1rem;
+     }
+     .last-logo{
+          flex-direction: column;
      }
 }
